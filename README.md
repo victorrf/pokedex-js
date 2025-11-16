@@ -42,8 +42,7 @@ O design utilizado como inspiração pode ser encontrado neste link:
 
 
 ## 📦 Como Executar o Projeto
-
-
+https://victorrf.github.io/pokedex-js/
 
 ## 🎯 Objetivo do Projeto
 
