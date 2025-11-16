@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" 
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Font Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="icon" type="image/png" href="./assets/images/pokebola.png"/>
+    <link rel="stylesheet" href="./assets/css/pokedex.css">
+    <link rel="stylesheet" href="./assets/css/detail.css">
+</head>
+<body>
+
+    <section class="content">
+        
+        <header class="pokemon-header">
+            <div class="header-top">
+                <a class="back" href="./index.html" title="Voltar">←</a>
+            </div>
+
+            <div class="header-main">
+                <div class="meta-left">
+                    <h1 id="pokemon-name">Loading...</h1>
+                    <div class="submeta">
+                        <span id="pokemon-number" class="number">#000</span>
+                        <div id="pokemon-types" class="types"></div>
+                    </div>
+                </div>
+
+                <div class="image-area">
+                    <img id="pokemon-img" class="pokemon-img" src="" alt="">
+                </div>
+            </div>
+        </header>
+
+        <main class="pokemon-info-card">
+            <nav class="tabs" role="tablist">
+                <button class="tab active" data-tab="about">About</button>
+                <button class="tab" data-tab="stats">Base Stats</button>
+                <button class="tab" data-tab="evolution">Evolution</button>
+                <button class="tab" data-tab="moves">Moves</button>
+            </nav>
+
+            <section class="tab-content active" id="about">
+                <ul class="info-list">
+                    <li><strong>Species</strong><span id="species">—</span></li>
+                    <li><strong>Height</strong><span id="height">—</span></li>
+                    <li><strong>Weight</strong><span id="weight">—</span></li>
+                    <li><strong>Abilities</strong><span id="abilities">—</span></li>
+                </ul>
+
+                <h3>Breeding</h3>
+                <ul class="info-list">
+                    <li><strong>Gender</strong><span id="gender">—</span></li>
+                    <li><strong>Egg Groups</strong><span id="egg-groups">—</span></li>
+                    <li><strong>Egg Cycle</strong><span id="egg-cycle">—</span></li>
+                </ul>
+            </section>
+
+            <section class="tab-content" id="stats">
+                <div id="stats-container"></div>
+                <div class="total-stat">
+                    <div class="total-left">TOTAL</div>
+                    <div class="total-value" id="total-stats">000</div>
+                    <div class="total-bar">
+                        <span class="total-fill"></span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="tab-content" id="evolution">
+                <div id="evolution-chain" class="evolution-chain">Carregando evolução...</div>
+            </section>
+
+            <section class="tab-content" id="moves">
+                <ul id="moves-list" class="moves-list">Carregando moves...</ul>
+            </section>
+        </main>
+
+    </section>
+
+    <!-- JS -->
+    <script defer src="./assets/js/pokemon-model.js"></script>
+    <script defer src="./assets/js/poke-api.js"></script>
+    <script defer src="./assets/js/poke-detail.js"></script>
+    <script defer src="./assets/js/main.js"></script>
+</body>
+</html>
