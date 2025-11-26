@@ -19,6 +19,8 @@ O design utilizado como inspiração pode ser encontrado neste link:
 
 ### Tela cheia 🖥️
 ![image](./assets/images/exemplo1.png)
+![exemplo01](assets/images/Pokedex-js01.gif)
+![exemplo02](assets/images/Pokedex-js02.gif)
 
 ### Tela de Celular 📱
 ![image](./assets/images/exemplo2.png)
