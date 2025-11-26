@@ -14,13 +14,13 @@ O design utilizado como inspiração pode ser encontrado neste link:
 
 ## 📸 Prévia
 
-### Modelo
+### Modelo 📝
 [![image](https://cdn.dribbble.com/userupload/42297016/file/original-ee1c480dc3f7d8d55244a79336cc6c2c.png?resize=800x600&vertical=center)](https://dribbble.com/shots/6540871-Pokedex-App)
 
-### Tela cheia
+### Tela cheia 🖥️
 ![image](./assets/images/exemplo1.png)
 
-### Tela de Celular
+### Tela de Celular 📱
 ![image](./assets/images/exemplo2.png)
 
 
